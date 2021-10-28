@@ -111,7 +111,7 @@
     },
     "WHOOGLE_CONFIG_SAFE": {
         "description": "[CONFIG] Use safe mode for searches (set to 1 or leave blank)",
-        "value": "",
+        "value": "1",
         "required": false
     },
     "WHOOGLE_CONFIG_ALTS": {

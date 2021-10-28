@@ -24,6 +24,8 @@ RUN mkdir -p $config_dir
 VOLUME $config_dir
 ENV CONFIG_VOLUME=$config_dir
 
+ARG use_https=1
+
 ARG username=''
 ENV WHOOGLE_USER=$username
 ARG password=''
@@ -41,7 +43,7 @@ ENV WHOOGLE_PROXY_LOC=$proxyloc
 ARG whoogle_dotenv=''
 ENV WHOOGLE_DOTENV=$whoogle_dotenv
 
-ARG use_https=''
+ARG use_https=1
 ENV HTTPS_ONLY=$use_https
 
 ARG whoogle_port=5000

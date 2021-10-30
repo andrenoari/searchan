@@ -95,9 +95,10 @@ select {
 }
 
 #search-bar {
-    border-color: var(--whoogle-dark-element-bg) !important;
+    border-color: #dcdcdca3 !important;
     color: var(--whoogle-dark-text) !important;
     background-color: var(--whoogle-dark-result-bg) !important;
+    border-bottom: none;
 }
 
 #search-bar:focus {

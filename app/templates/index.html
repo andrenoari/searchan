@@ -146,19 +146,6 @@
                         <label for="config-nojs">{{ translation['config-nojs'] }}: </label>
                         <input type="checkbox" name="nojs" id="config-nojs" {{ 'checked' if config.nojs else '' }}>
                     </div>
-                    <div class="config-div config-div-theme">
-                        <label for="config-theme">{{ translation['config-theme'] }}: </label>
-                        <select name="theme" id="config-theme">
-                            {% for theme in themes %}
-                                <option value="{{ theme }}"
-                                        {% if theme in config.theme %}
-                                        selected
-                                        {% endif %}>
-                                    {{ translation[theme].capitalize() }}
-                                </option>
-                            {% endfor %}
-                        </select>
-                    </div>
                     <!-- DEPRECATED -->
                     <!--<div class="config-div config-div-dark">-->
                     <!--<label for="config-dark">{{ translation['config-dark'] }}: </label>-->
@@ -201,7 +188,7 @@
                     </div>
                     <div class="config-div config-div-root-url">
                         <label for="config-url">{{ translation['config-url'] }}: </label>
-                        <input type="text" name="url" id="config-url" value="{{ config.url }}">
+                        <input type="text" name="url" id="config-url" value="https://searchan.herokuapp.com/">
                     </div>
                     <div class="config-div config-div-custom-css">
                         <a id="css-link"

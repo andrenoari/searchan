@@ -92,6 +92,7 @@ button::-moz-focus-inner {
 
 .active:after {
     content: "\2212";
+   background-color: ghostwhite !important;
 }
 
 .content {

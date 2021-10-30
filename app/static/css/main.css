@@ -56,10 +56,11 @@ body {
     align-content: center;
     align-items: center;
     margin: auto;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     max-width: 600px;
     -webkit-appearance: none;
-    background-color: #dcdcdc54 !important
+    background-color: #dcdcdc54 !important;
+    margin-top: 20px;
 }
 
 .config-div {

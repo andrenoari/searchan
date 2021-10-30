@@ -46,6 +46,7 @@ div span {
 input {
     background-color: var(--whoogle-dark-page-bg) !important;
     color: var(--whoogle-dark-text) !important;
+    border-radius: 4px;
 }
 
 select {

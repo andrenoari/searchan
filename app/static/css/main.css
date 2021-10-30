@@ -56,11 +56,10 @@ body {
     align-content: center;
     align-items: center;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     max-width: 600px;
     -webkit-appearance: none;
     background-color: #dcdcdc54 !important;
-    margin-top: 20px;
 }
 
 .config-div {
@@ -73,7 +72,7 @@ button::-moz-focus-inner {
 
 .collapsible {
     outline: 0;
-    background-color: ghostwhite;
+    background-color: ghostwhite !important;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -94,6 +93,7 @@ button::-moz-focus-inner {
 .active:after {
     content: "\2212";
    background-color: ghostwhite !important;
+   border-radius: 10px 10px 0 0;
 }
 
 .content {

@@ -98,7 +98,6 @@ select {
     border-color: var(--whoogle-dark-element-bg) !important;
     color: var(--whoogle-dark-text) !important;
     background-color: var(--whoogle-dark-result-bg) !important;
-    border-bottom: 2px solid var(--whoogle-dark-element-bg);
 }
 
 #search-bar:focus {

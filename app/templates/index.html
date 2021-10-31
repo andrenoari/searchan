@@ -52,7 +52,7 @@
         </style>
     </noscript>
     <style>{{ config.style }}</style>
-    <title>Searchan</title>
+    <title>Searchan - Privacy Search</title>
 </head>
 <body id="main">
 <div class="search-container">
@@ -189,22 +189,6 @@
                     <div class="config-div config-div-root-url">
                         <label for="config-url">{{ translation['config-url'] }}: </label>
                         <input type="text" name="url" id="config-url" value="https://searchan.herokuapp.com/">
-                    </div>
-                    <div class="config-div config-div-custom-css">
-                        <a id="css-link"
-                           href="https://github.com/benbusby/whoogle-search/wiki/User-Contributed-CSS-Themes" target="_blank">
-                            {{ translation['config-css'] }}:
-                        </a>
-                        <textarea
-                                name="style"
-                                id="config-style"
-                                autocapitalize="off"
-                                autocomplete="off"
-                                spellcheck="false"
-                                autocorrect="off"
-                                value="">
-                            {{ config.style.replace('\t', '') }}
-                        </textarea>
                     </div>
                     <div class="config-div">
                         <input type="submit" id="config-load" value="{{ translation['load'] }}">&nbsp;

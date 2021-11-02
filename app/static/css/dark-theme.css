@@ -52,6 +52,7 @@ input {
 select {
     background: var(--whoogle-dark-page-bg) !important;
     color: var(--whoogle-dark-text) !important;
+    width: 290px;
 }
 
 .search-container {
